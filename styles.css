@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.92);
+    font-size: 16px;
+    font-family: "Monaco", monospace;
+    overflow-x: hidden;
+}
+.header-div {
+    margin: 0;
+    height: 30rem;
+    background: rgba(0,0,0,0.75) url(https://source.unsplash.com/R0uRWeZR4Ug/1280x600);
+    background-blend-mode: darken;
+}
+.nav-flex {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-logo {
+    position: relative;
+    right: 44rem;
+}
+.nav-items {
+    margin: 1.5rem 2rem 0;    
+    font-size: 1.3rem;
+}
+.nav-logo:hover, .nav-items:hover {
+    color: rgba(255, 255, 255, 0.7);
+} 
+.future-div {
+    padding: 2rem 2rem 0;
+    color: white;
+    font-size: 3rem;
+    background-color: rgba(0,0,0,0.7);
+    height: 6rem;
+    width: 32rem;
+    margin: 7rem auto;
+}
+.about-div {
+    height: 25rem;
+}
+.about-head {
+    padding: 2rem 1rem;
+    position: relative;
+    left: 10rem;
+    top: 3rem;
+    color: white;
+    height: 15rem;
+    width: 20rem;
+    background: rgba(0,0,0,0.5) url(https://source.unsplash.com/p_ECFS1OVuo/400x300);   
+    background-blend-mode: darken;
+}
+.about-head h1 {
+    margin: 1.5rem;
+}
+.about-para {
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 12rem;
+    left: 45rem;
+    height: 15rem;
+    width: 20rem;
+}
+.stat-div {
+    padding: 1.5rem;
+    color: white;
+    position: relative;
+    bottom: 1.5rem;    
+    height: 18rem;
+    background: rgba(0,0,0,0.8) url(https://source.unsplash.com/w1K9Ug_pjXw/1280x500);      
+    background-blend-mode: darken;
+}
+.stat-1, .stat-2 {
+    margin: 1rem 8rem;
+    float: left;
+    text-align: center;
+}
+.stat1-h1, .stat2-h1 {
+    font-size: 3.5rem;
+}
+.stat1-p, .stat2-p {
+    font-size: 1.5rem;
+    width: 20rem;
+}
+.footer {
+    color: white;
+    padding: 1rem 0 0;
+    text-align: center;
+    position: relative;
+    bottom: 1.5rem;
+    height: 1rem;
+}
